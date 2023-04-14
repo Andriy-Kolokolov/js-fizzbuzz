@@ -1,7 +1,7 @@
-let eleGrid = document.querySelector(".grid");
-let inputCols = document.getElementById("input-cols");
+const eleGrid = document.querySelector(".grid");
+const inputCols = document.getElementById("input-cols");
 
-for (let i = 1; i < 100; i++) {
+for (let i = 1; i < 1000; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         eleGrid.innerHTML += `<div class="cell" style="background-color: #ee456e">fizzbuzz</div>`
     }
