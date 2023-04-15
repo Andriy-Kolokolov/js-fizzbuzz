@@ -19,6 +19,5 @@ for (let i = 1; i < 1000; i++) {
 inputCols.addEventListener("input", updateCols);
 
 function updateCols(cols) {
-    document.querySelector(".grid")
-        .setAttribute("style", `grid-template-columns: repeat(${cols.target.value}, 1fr);`);
+    eleGrid.setAttribute("style", `grid-template-columns: repeat(${cols.target.value}, 1fr);`);
 }
